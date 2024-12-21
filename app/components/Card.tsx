@@ -10,10 +10,13 @@ type Props = {
 
 const Card = ({ title, text, btnLeft, btnRight }: Props) => {
   return (
-    <div className="flex flex-col justify-end items-center w-full min-h-[500px] gap-2 p-10 bg-gray-900 bg-center bg-cover bg-no-repeat bg-[url('/vertical/pro.jpeg')]">
+    <div
+      className="flex flex-col justify-end items-center w-full
+ min-h-[500px] gap-2 p-10 bg-gray-900 bg-center bg-cover bg-no-repeat  bg-[url('/vertical/pro.jpeg')] "
+    >
       <div className="flex flex-col items-center gap-2 text-center ">
         <h1 className="text-3xl font-semibold text-white">{title}</h1>
-        <p className="text-lg font-medium text-white">{text}</p>
+        <p className="text-lg font-normal text-white">{text}</p>
         <div className="flex gap-2 pt-2">
           <button className="font-normal text-white rounded-full btn-sm btn btn-primary">
             {btnLeft}
@@ -28,3 +31,9 @@ const Card = ({ title, text, btnLeft, btnRight }: Props) => {
 };
 
 export default Card;
+
+{
+  /*
+  bg-[url('/vertical/pro.jpeg')]
+  */
+}
