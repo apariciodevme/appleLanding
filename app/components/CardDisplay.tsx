@@ -7,13 +7,7 @@ import CardDarkText from './CardDarkText'
 const CardDisplay = () => {
   return (
 <div>
-<CardDynamicEnd
-            title={"Heartstrings"}
-            text={"AirPods Pro 2 now with a Hearing Aid feature."}
-            bg="/vertical/man.jpeg"
-            btnLeft="Watch the film"
-            btnRight="Learn more"       
-      />
+
 
       <CardDynamicEnd
             title={"iPhone 16 Pro"}
