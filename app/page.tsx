@@ -17,7 +17,7 @@ export default function Home() {
   
     <CardDisplay/>
      
-    
+    <Carousel/>
     </main>
   );
 }
