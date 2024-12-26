@@ -35,8 +35,8 @@ const Carousel = () => {
             </div>
             <div className="flex flex-col items-center flex-none pb-10">
               <div className="flex flex-col items-center mb-5">
-                <h2 className="text-2xl font-semibold text-white">Sci-Fi</h2>
-                <p className="text-sm text-white/80">New season.</p>
+                <h2 className="text-2xl font-semibold text-white">Drama</h2>
+                <p className="text-sm text-white/80">Family is a killer.</p>
               </div>
               <button className="h-10 font-normal text-black rounded-full btn-sm btn">
                 Stream now
@@ -56,8 +56,8 @@ const Carousel = () => {
             </div>
             <div className="flex flex-col items-center flex-none pb-10">
               <div className="flex flex-col items-center mb-5">
-                <h2 className="text-2xl font-semibold text-white">Sci-Fi</h2>
-                <p className="text-sm text-white/80">New season.</p>
+                <h2 className="text-2xl font-semibold text-white">Comedy</h2>
+                <p className=" text-md text-white/80">Will they makehistory...or fake it?</p>
               </div>
               <button className="h-10 font-normal text-black rounded-full btn-sm btn">
                 Stream now
@@ -66,27 +66,7 @@ const Carousel = () => {
           </div>
       </div>
       </section>
-      {/* Carousel Item */}
-      <section className="carousel-item">
-        <div className="shadow-xl card image-full">
-            <img className="z-10" src="/carousel/posters/4.jpeg" alt="Shoes" />
-          <div className="z-10 justify-between h-full gap-5 p-5 card-body">
-            <div className="flex flex-col items-center gap-5">
-              <img className="w-20" src="/carousel/tv.png" alt="" />
-              <img className="max-w-60" src="carousel/titles/4.png" alt="" />
-            </div>
-            <div className="flex flex-col items-center flex-none pb-10">
-              <div className="flex flex-col items-center mb-5">
-                <h2 className="text-2xl font-semibold text-white">Sci-Fi</h2>
-                <p className="text-sm text-white/80">New season.</p>
-              </div>
-              <button className="h-10 font-normal text-black rounded-full btn-sm btn">
-                Stream now
-              </button>
-            </div>
-          </div>
-      </div>
-      </section>
+      
       {/* Carousel Item */}
       <section className="carousel-item">
         <div className="shadow-xl card image-full">
@@ -98,8 +78,8 @@ const Carousel = () => {
             </div>
             <div className="flex flex-col items-center flex-none pb-10">
               <div className="flex flex-col items-center mb-5">
-                <h2 className="text-2xl font-semibold text-white">Sci-Fi</h2>
-                <p className="text-sm text-white/80">New season.</p>
+                <h2 className="text-2xl font-semibold text-white">Comedy</h2>
+                <p className="text-sm text-white/80">Kindness makes a comeback.</p>
               </div>
               <button className="h-10 font-normal text-black rounded-full btn-sm btn">
                 Stream now
@@ -119,8 +99,8 @@ const Carousel = () => {
             </div>
             <div className="flex flex-col items-center flex-none pb-10">
               <div className="flex flex-col items-center mb-5">
-                <h2 className="text-2xl font-semibold text-white">Sci-Fi</h2>
-                <p className="text-sm text-white/80">New season.</p>
+                <h2 className="text-2xl font-semibold text-white">Thriller</h2>
+                <p className="text-sm text-white/80">Emmy® Award winner.</p>
               </div>
               <button className="h-10 font-normal text-black rounded-full btn-sm btn">
                 Stream now

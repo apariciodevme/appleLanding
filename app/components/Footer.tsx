@@ -1,44 +1,65 @@
-import React from 'react'
+import React from "react";
 
 const Footer = () => {
   return (
-<footer className="p-10 footer bg-base-200 text-base-content">
-  <nav>
-    <h6 className="footer-title">Services</h6>
-    <a className="link link-hover">Branding</a>
-    <a className="link link-hover">Design</a>
-    <a className="link link-hover">Marketing</a>
-    <a className="link link-hover">Advertisement</a>
-  </nav>
-  <nav>
-    <h6 className="footer-title">Company</h6>
-    <a className="link link-hover">About us</a>
-    <a className="link link-hover">Contact</a>
-    <a className="link link-hover">Jobs</a>
-    <a className="link link-hover">Press kit</a>
-  </nav>
-  <nav>
-    <h6 className="footer-title">Legal</h6>
-    <a className="link link-hover">Terms of use</a>
-    <a className="link link-hover">Privacy policy</a>
-    <a className="link link-hover">Cookie policy</a>
-  </nav>
-  <form>
-    <h6 className="footer-title">Newsletter</h6>
-    <fieldset className="form-control w-80">
-      <label className="label">
-        <span className="label-text">Enter your email address</span>
-      </label>
-      <div className="join">
-        <input
-          type="text"
-          placeholder="username@site.com"
-          className="input input-bordered join-item" />
-        <button className="btn btn-primary join-item">Subscribe</button>
-      </div>
-    </fieldset>
-  </form>
-</footer>  )
-}
+    <footer className="mt-24">
+      <nav className="flex text-gray-500 divide-gray-200 flex-col gap-2 text-sm divide-y-[1px] ">
+          <a >Shop and Learn</a>
+        <a >Apple Wallet</a>
+        <a >Account</a>
+        <a >Entretainment</a>
+        <a >Apple Store</a>
+        <a >For Business</a>
+        <a >For Education</a>
+        <a >For Healtcare</a>
+        <a >For Government</a>
+        <a >Apple Values</a>
+        <a >About Apple</a>
+      </nav>
 
-export default Footer
+      <section className="flex flex-col items-start gap-5">
+        <p className="text-xs">
+          More ways to shop:{" "}
+          <a className="text-blue-500 underline" href="">
+            Find an Apple Store
+          </a>{" "}
+          or{" "}
+          <a className="text-blue-500 underline" href="">
+            other retailer
+          </a>{" "}
+          near you. Or call{" "}
+          <a className="text-blue-500 underline" href="">
+            1-800-MY-APPLE
+          </a>
+        </p>
+        <h6 className="font-semibold">United States</h6>
+        <p className="text-xs text-gray-500">
+          Copyright 2024 Apple Inc. All rights reserved.
+        </p>
+
+        <nav className="">
+          <ul className="flex gap-2 text-xs divide-x-2 divide-slate-600">
+            <li>
+              <a href="/">Privacy Policy</a>
+            </li>
+            <li>
+              <a href="/">Terms of use</a>
+            </li>
+            <li>
+              <a href="/">Sales and refunds</a>
+            </li>
+            <li>
+              <a href="/">Legal</a>
+            </li>
+
+            <li>
+              <a href="/">Site Map</a>
+            </li>
+          </ul>
+        </nav>
+      </section>
+    </footer>
+  );
+};
+
+export default Footer;
